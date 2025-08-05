@@ -20,6 +20,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "decrementUint8",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "foo",
 				"outputs": [
 					{
@@ -33,7 +40,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "incrementUint9",
+				"name": "incrementUint8",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -91,7 +98,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/exampleInt.sol": "ExampleInt"
+			"contracts/basicSyntax/exampleInt.sol": "ExampleInt"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -105,12 +112,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/exampleInt.sol": {
-			"keccak256": "0x1f8de2b2dba5b711777039b5b92749cd1a4979da892036f578268dafc19f22f0",
+		"contracts/basicSyntax/exampleInt.sol": {
+			"keccak256": "0x7448f0e47b227ef6081283d0401193c0b8d03ff0e5e417b90fa47b3b6bf729ff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bec9dc312592961a21a2bd3ee44b0765bf3e80f1047896a1b6ba6afaa4a46a55",
-				"dweb:/ipfs/QmXyF7edevQswL43tfbEmzYgzMGXpxDLtgJb1FzuwQYGrC"
+				"bzz-raw://459509f0b1f13e21e494c5a1c5bc8d1bd55c131460ecc9d03e1aa7e9cc4f9bac",
+				"dweb:/ipfs/QmUwtJCo13wh65pGEWwEbyfhDvnXVYLHHzzCpVeyb3BWQj"
 			]
 		}
 	},

@@ -29,7 +29,14 @@ contract ExampleInt {
         foo = _newVal;
     }
 
-    function incrementUint9() public {
+    function incrementUint8() public {
         myUint8++;
+    }
+
+    function decrementUint8() public {
+        unchecked {
+            myUint8--;
+        }
+
     }
 }
