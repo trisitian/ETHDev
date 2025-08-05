@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/basicSyntax/exampleStrings.sol": "ExampleBool"
+			"contracts/basicSyntax/exampleAddress.sol": "ExampleBool"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/basicSyntax/exampleStrings.sol": {
+		"contracts/basicSyntax/exampleAddress.sol": {
 			"keccak256": "0x10302c8d74dae77a22b29357ba0f28a5a0d4121a76a863ac7cad56725cead614",
 			"license": "MIT",
 			"urls": [

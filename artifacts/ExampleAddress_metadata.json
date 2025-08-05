@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "ourString",
+				"name": "getBalance",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -21,14 +21,27 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_updatedString",
-						"type": "string"
+						"internalType": "address",
+						"name": "_someAddress",
+						"type": "address"
 					}
 				],
-				"name": "updateString",
+				"name": "setAddress",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "someAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -45,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/basicSyntax/MyContract.sol": "MyContract"
+			"contracts/basicSyntax/exampleAddress.sol": "ExampleAddress"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/basicSyntax/MyContract.sol": {
-			"keccak256": "0xacac5b568637008eb134f1eed627bb81a6a6cc383f9aa98b38668343a824d41f",
+		"contracts/basicSyntax/exampleAddress.sol": {
+			"keccak256": "0xfca43d02808b887ed5b32c10013ec3929d9c38a4926052d5fb4a542d8c0ecc86",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d052c65295b089c4596f8b3c8de0179dcff6ccb2d4e0303436359f5dca72b7f3",
-				"dweb:/ipfs/Qmepu2fne4Rj4hKb8Gwox4JqeHwXjKFmdWKErhifCv8Xac"
+				"bzz-raw://cd5f60987d7267c495d2d2d1f648b550a6132a2c788baaf0409723de44bf05d4",
+				"dweb:/ipfs/QmNXe31w5Bi7ycEEjhsJUrGvSFszH6si8EiB83oNayihQf"
 			]
 		}
 	},
