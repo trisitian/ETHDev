@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/basicSyntax/SolidityViewAndPure.sol": "ExampleBool"
+			"contracts/basicSyntax/ExampleConstructor.sol": "ExampleBool"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/basicSyntax/SolidityViewAndPure.sol": {
-			"keccak256": "0x10302c8d74dae77a22b29357ba0f28a5a0d4121a76a863ac7cad56725cead614",
+		"contracts/basicSyntax/ExampleConstructor.sol": {
+			"keccak256": "0x4700eb1f262f2c9a92d002759d285ee5bd7444a77f9390dae992b2f0d44517fe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://91ecea87a132d20c9b0a2b2795e604d6e5ca3e00a5abc0a73c76b3271f863b59",
-				"dweb:/ipfs/QmaSkaPHxkiWhsobFBAg8paF1gGRT2T3PQr41wfVhw2ryB"
+				"bzz-raw://1ede48a026c1768d5508e91b5d677e02a547dc914b47ec8dd0d6fa1701aa743f",
+				"dweb:/ipfs/QmWzW69W8iLMnzv9nEX76z4EuXJStMsH8qvSL17wQFfrn4"
 			]
 		}
 	},
