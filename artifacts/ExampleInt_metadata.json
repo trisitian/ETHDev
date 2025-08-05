@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "toIncrement",
+						"type": "bool"
+					}
+				],
+				"name": "changeIntVal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "foo",
 				"outputs": [
@@ -13,6 +26,39 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementUint9",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +106,11 @@
 	},
 	"sources": {
 		"contracts/exampleInt.sol": {
-			"keccak256": "0xd7105c71a4e95c8f42a9e765feb72482305159cbc2904530365f310dc2299cfb",
+			"keccak256": "0x1f8de2b2dba5b711777039b5b92749cd1a4979da892036f578268dafc19f22f0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://00bb848a2a613f91b2dbd64e904670d31160b5030adf4eb305c86855aaccccf6",
-				"dweb:/ipfs/QmRRFEaoN8Gp6EjQ5ZJSbsjcfvaxTbFFkbYMvJh54vdtEP"
+				"bzz-raw://bec9dc312592961a21a2bd3ee44b0765bf3e80f1047896a1b6ba6afaa4a46a55",
+				"dweb:/ipfs/QmXyF7edevQswL43tfbEmzYgzMGXpxDLtgJb1FzuwQYGrC"
 			]
 		}
 	},
