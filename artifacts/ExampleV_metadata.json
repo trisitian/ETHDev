@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/basicSyntax/SolidityViewAndPure.sol": "ExampleBool"
+			"contracts/basicSyntax/SolidityViewAndPure.sol": "ExampleV"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/basicSyntax/SolidityViewAndPure.sol": {
-			"keccak256": "0x10302c8d74dae77a22b29357ba0f28a5a0d4121a76a863ac7cad56725cead614",
+			"keccak256": "0xf46cf15ef2fa9d1244760f2a51688846287b6be1fd2b5379b535596246ff09ae",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://91ecea87a132d20c9b0a2b2795e604d6e5ca3e00a5abc0a73c76b3271f863b59",
-				"dweb:/ipfs/QmaSkaPHxkiWhsobFBAg8paF1gGRT2T3PQr41wfVhw2ryB"
+				"bzz-raw://27ab237fed8f86f4d8376dcad459937e778f823a5726e8162a74193777ab2229",
+				"dweb:/ipfs/QmTpWLqAw29kmfBYE5NREouDqARVXFqwBMGmGYPkehKmXq"
 			]
 		}
 	},
